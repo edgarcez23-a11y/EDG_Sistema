@@ -1,0 +1,9 @@
+{
+  "name": "edmar/oficina-project",
+  "description": "Oficina Inteligente - Sistema de Gestão para Oficinas Mecânicas",
+  "type": "project",
+  "require": {
+    "phpmailer/phpmailer": "^6.8",
+    "php": ">=7.4.0"
+  }
+}

@@ -1,0 +1,180 @@
+/* style.css - básico para deixar visual limpo */
+body {
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    background: linear-gradient(135deg, #f7f9fc 0%, #eef4ff 100%);
+    color: #233142;
+    min-height: 100vh;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1500px;
+}
+
+.text-secondary {
+    --bs-text-opacity: 1;
+    color: #343a40 !important;
+}
+
+.container-fluid {
+    max-width: 1500px;
+    background: rgba(255, 255, 255, 0.88);
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    margin-top: 35px;
+    align-items: center;
+   
+}
+
+.navbar-brand{
+    color: #000000;
+}
+
+.text-white {
+    --bs-text-opacity: 2;
+    color: (#000000, var(--bs-text-opacity)) !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100px;
+    margin-bottom: 20px 25px 20px 25px;
+    
+}
+
+.hero-image {
+    width: 50%;
+    height: 220px;
+    align-content: center;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-left: 25%;
+}
+
+.col-lg-5 {
+        flex: 50 50 auto;
+        width: 41.66666667%;
+        margin-bottom: 15px;
+    }
+
+.gx-3 {
+    --bs-gutter-x: 1rem;
+    justify-content: center;
+    margin-bottom: 15px;
+}    
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    
+}
+
+.tela_inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #0d6efd;
+    border-top: 10px solid #0d6efd;
+}
+
+.titulo {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0d6efd;
+}
+
+.col-md-6,
+.col-md-4,
+.col-md-2 {
+    margin-bottom: 12px;
+}
+
+.mb-3 {
+    font-size: 20px;
+
+}
+
+.px-3 {
+   
+    font-size: 50px;
+    font-style: italic;
+}
+
+.text_tela {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0d6efd;
+}
+
+.telainicio {
+    width: 280px;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+
+.navbar-custom {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.navbar-custom .btn {
+    min-width: 140px;
+    border-radius: 999px;
+    box-shadow: 0 6px 14px rgba(13, 110, 253, 0.12);
+}
+
+.card-panel {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.feature-card {
+    background: linear-gradient(135deg, #f8fbff 0%, #eef4ff 100%);
+    border: 1px solid #dfe9ff;
+    border-radius: 14px;
+    padding: 16px;
+    height: 100%;
+}
+
+.feature-card .btn {
+    border-radius: 999px;
+}
+
+.home-shell {
+    position: relative;
+    overflow: hidden;
+}
+
+.home-watermark {
+    position: absolute;
+    inset: 0;
+    background-image: url('../../public/Logo Garcez gestão.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
+    opacity: 0.06;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.home-shell > * {
+    position: relative;
+    z-index: 1;
+}
