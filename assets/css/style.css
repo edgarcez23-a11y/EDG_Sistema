@@ -34,6 +34,75 @@ h1, h2 {
     color: #000000;
 }
 
+.system-menu {
+    position: relative;
+    margin-right: 16px;
+}
+
+.system-menu summary {
+    color: #ffffff;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+.system-menu summary::-webkit-details-marker {
+    display: none;
+}
+
+.system-menu summary:hover,
+.system-menu[open] summary {
+    background: rgba(255, 255, 255, 0.18);
+}
+
+.system-menu-items {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    z-index: 10;
+    min-width: 170px;
+    padding: 6px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.system-menu-items a {
+    display: block;
+    padding: 8px 10px;
+    color: #233142;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.system-menu-items a:hover {
+    background: #eef4ff;
+    color: #0d6efd;
+}
+
+.log-shell {
+    max-width: 1500px;
+}
+
+.log-navbar {
+    margin-top: 0;
+    box-shadow: none;
+    background: transparent;
+}
+
+.log-table {
+    min-width: 720px;
+}
+
+.log-line {
+    display: block;
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: #233142;
+}
+
 .text-white {
     --bs-text-opacity: 2;
     color: (#000000, var(--bs-text-opacity)) !important;

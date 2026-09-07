@@ -20,6 +20,12 @@ $usuario = get_usuario_logado();
   <!-- Navbar de Autenticação -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
     <div class="container-fluid">
+      <details class="system-menu">
+        <summary aria-label="Abrir menu do sistema">☰ Menu</summary>
+        <div class="system-menu-items">
+          <a href="log.php">Log do sistema</a>
+        </div>
+      </details>
       <span class="navbar-brand">🔧 Sistema de Gestão</span>
       <div class="ms-auto d-flex align-items-center gap-2">
         <span class="text-white">
